@@ -1,0 +1,24 @@
+{
+    "name": "react-setlevel-components",
+    "version": "1.0.0",
+    "private": false,
+    "main": "./lib/index.js",
+    "files": [
+        "./lib"
+    ],
+    "dependencies": {
+        "react": "^16.3.0",
+        "react-dom": "^16.3.0",
+        "react-scripts": "1.1.1",
+        "styled-components": "^3.2.3"
+    },
+    "scripts": {
+        "clean:lib": "rimraf ./lib/*",
+        "build:commonjs": "npm run clean:lib && babel ./src/Components --out-dir ./lib",
+        "start": "watch 'npm run build:commonjs' ./src/Components"
+    },
+    "devDependencies": {
+        "rimraf": "^2.6.2",
+        "watch": "^1.0.2"
+    }
+}
