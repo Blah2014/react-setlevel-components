@@ -3,6 +3,10 @@
 # Installation
 ```
 $ npm i --save react-setlevel-components
+
+-- or --
+
+$ npm i --save https://github.com/Blah2014/react-setlevel-components
 ```
 
 # Grid
