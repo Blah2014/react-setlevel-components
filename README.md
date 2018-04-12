@@ -11,6 +11,10 @@ $ npm i --save https://github.com/Blah2014/react-setlevel-components
 
 # Grid
 
+[Demo](https://blah2014.github.io/react-setlevel-components/demo/index.html)
+
+![Grid](https://raw.githubusercontent.com/Blah2014/react-setlevel-components/master/demo/images/grid.png)
+
 ### Usage
 ```
 import {
