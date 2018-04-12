@@ -6,7 +6,6 @@ const Column = styled.div.attrs({
     className: props => props.className,
     style: props => props.style
 })`
-    //backface-visibility: hidden;
     transition: width 0.3s;
 
     height: 100%;
@@ -21,6 +20,7 @@ const Column = styled.div.attrs({
     align-items: ${
         props => props.horizontalAlign === 'center'? 'center': props.horizontalAlign === 'right'? 'flex-end': 'flex-start'
     };
+    -webkit-overflow-scrolling: touch;
     overflow: ${
         props => props.overflow === 'auto'? 'auto': 'hidden'
     };
